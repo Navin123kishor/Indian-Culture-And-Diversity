@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="670dp">
+
+    <ImageView
+        android:id="@+id/dance_image"
+        android:layout_width="386dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kathakali_dance" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="237dp" />
+
+    <TextView
+        android:id="@+id/dance_name"
+        android:layout_width="383dp"
+        android:layout_height="64dp"
+        android:gravity="center_horizontal"
+        android:text="Bharat Natyam"
+        android:textColor="#6200EA"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline14" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="301dp" />
+
+    <TextView
+        android:id="@+id/dance_text"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="This Indian classical dance tops the list of famous dances of India. The centuries old dance teachers and temple dancers hand over this beautiful dance form to us. It is a delightful combination of four elements i.e. expression, music, beats, and dance. The accompanying music in Bharatnatyam is classical Carnatic"
+        android:textColor="#C51162"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline15" />
+</androidx.constraintlayout.widget.ConstraintLayout>

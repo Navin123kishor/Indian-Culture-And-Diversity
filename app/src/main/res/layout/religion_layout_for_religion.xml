@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="700dp">
+
+    <ImageView
+        android:id="@+id/religion_image"
+        android:layout_width="392dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hinduism_culture" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="235dp" />
+
+    <TextView
+        android:id="@+id/religion_name"
+        android:layout_width="338dp"
+        android:layout_height="58dp"
+        android:gravity="center_horizontal"
+        android:text="Hinduism"
+        android:textColor="#6200EA"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline16" />
+
+    <TextView
+        android:id="@+id/religion_text"
+        android:layout_width="360dp"
+        android:layout_height="344dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="14dp"
+        android:text="Hinduism is the oldest religion in the world. Hinduism is world's third largest religion after Christianity and Islam. Hinduism is the dominant religion in India, where Hindus form about 84 per cent of the total population. Hinduism is also known as &quot;Sanatan Dharma&quot; or the everlasting religion."
+        android:textColor="#C51162"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline17"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="300dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="684dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
